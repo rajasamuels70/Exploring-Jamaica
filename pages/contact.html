@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/slicknav.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Exploring Jamaica</h1>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>              
+    </nav>     
+    <main>
+        <section>
+            <div class="content">
+                <h2 class="movingheader">Contact Us!</h2>
+            </div>
+            <div class="container">
+                <div class="image-container">
+                  <div class="overlay">
+                    <h3>Stay Up To Date With Everything Jamaica</h3>
+                    <div class="overlaydescription">
+                        <p>Subscribe to get the latest articles, news, & videos.</p>
+                    </div>
+                    <div class="emailinput" >
+                        <input id="email_input" type="text" required="required" name="enteryouremail" placeholder="Email">
+                        <span id="emailError" class="error"></span>
+                    </div>
+                    <div class="signupbutton">
+                        <input class="button_signup" type="button" id="signup" value="Sign Up">
+                    </div>   
+                  </div>
+                                 
+                  <img src="../images/275985045_664402878145180_389414036834057376_n.jpg" alt="beautifulimage">
+                </div>   
+            </div>
+                 
+        </section>    
+    </main>
+    <script src="../javascript/contactus.js"></script>  
+    <footer>
+        <p>Rogerife Samuels| Image by <a href="https://www.freepik.com/free-vector/watercolor-summer-background_25800369.htm#query=caribbean%20background&position=0&from_view=keyword&track=ais_user&uuid=20efdda0-4762-435e-bb8a-4d7f9d9797d1">Freepik</a></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../javascript/jquery.slicknav.min.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>  
+</body>
+</html>
