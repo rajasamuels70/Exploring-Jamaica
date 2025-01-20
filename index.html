@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <title>Exploring Jamaica</title>
+</head>
+<body>
+    <header>
+        <h1>Exploring Jamaica</h1>
+    </header>
+    <nav id="mobile_menu"></nav>
+    <nav id="nav_menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/culture.html">Culture</a></li>
+            <li><a href="pages/music.html">Music</a></li>
+            <li><a href="pages/food.html">Food</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
+        </ul>              
+    </nav>     
+    <main>
+        <section>
+            
+            <div>
+                <h2 class="movingheader2">COME BACK TO THE VIBE THAT COMES ALIVE IN JAMAICA!</h2>
+                <div class="welcome">
+                    <p>Welcome to Jamaica, where the vibrant energy and laid-back charm of our island will captivate you. Come explore the rhythmic pulse of our island and the irresistible vibes, warmth and spirit of our people that will leave an indelible mark on your heart. </p>
+                    <p>Whether you're seeking adventure, relaxation, a romantic escape, vibrant cultural encounters or breathtaking natural wonders, Jamaica has something for everyone. This is your invitation to experience the magic of Jamaica and come back to being your best self again.</p>
+                </div>
+               
+                
+            </div>
+            <div class="aboutja">
+                <p>Jamaica, a Caribbean island nation, has a lush topography of mountains, rainforests and reef-lined beaches. Many of its all-inclusive resorts are clustered in Montego Bay, with its British-colonial architecture, and Negril, known for its diving and snorkeling sites. Jamaica is famed as the birthplace of reggae music, and its capital Kingston is home to the Bob Marley Museum, dedicated to the famous singer.</p>
+            </div>
+            <div class="geography">
+                <h2 class="movingheader">Geography</h2>
+                <img src="images/geogrphyagain.webp" alt="images">
+                <div class="aboutgeography">
+                    <p>Jamaica is a mountainous island in the Caribbean Sea about 600 miles (965 kilometers) south of Miami, Florida. It is part of the chain of Caribbean islands called the Greater Antilles, along with Cuba, Hispaniola, and Puerto Rico. Jamaica was formed when the North American and Caribbean tectonic plates collided about 25 million years ago.
+    
+                    Jamaica is the tip of a mountain rising from the sea floor. Nearly half of the island is more than 1,000 feet (330 meters) above sea level. There are lush rolling hills that are ideal for agriculture and coastal beach regions that are popular with tourists.</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="movingheader">Things to do in Jamaica!</h2>
+                <h3>You will never run out of things to do in Jamaica</h3>
+                <div class="thingstodo">
+                    <p>This island is bursting with stories and experiences served with the warmest hospitality and largesse. There’s always music playing, delicious food cooking, and you’re always invited. From hiking and water sports to historical sites and food tours, Jamaica is a treasure trove of activities waiting to be checked off your bucket list. Think golfing, shopping, sailing, exploring and not to mention the parties!... Even we can’t keep up.</p><br>
+
+                    <p>Come back to exciting and dive into the wide range of things to do in Jamaica.</p>
+                </div>
+                
+            </div>
+            
+            <div class="content">
+            <h2 class="movingheader">Let's go for a tour!</h2>
+        </div>
+        <div class="videoplayer">
+            <video width="800px" height="500px" controls="controls" 
+            src="videos/Jamaica.mp4" type="video/mp4">
+            </video>           
+        </div>
+        </section> 
+        <aside>
+                
+        </aside>     
+    </main>  
+    <footer>
+        <p>Rogerife Samuels| Image by <a href="https://www.freepik.com/free-vector/watercolor-summer-background_25800369.htm#query=caribbean%20background&position=0&from_view=keyword&track=ais_user&uuid=20efdda0-4762-435e-bb8a-4d7f9d9797d1">Freepik</a></p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="javascript/jquery.slicknav.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+        });
+    </script>
+</body>
+</html>
